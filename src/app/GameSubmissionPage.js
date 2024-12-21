@@ -2,9 +2,8 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Layout from "../components/Layout";
 import { UseUserProfile } from "../hooks/UseUserProfile";
-import { UseCountry } from "../hooks/UseCountry";
 import { useLoader } from "../utils/LoaderManager";
-import toast, { Toaster } from "react-hot-toast";
+import toast from "react-hot-toast";
 import { postData } from "../utils/ApiUtils";
 import Images from "../constants/Images";
 
@@ -13,11 +12,6 @@ import "./styles/styles.css";
 export default function GameSubmissionPage() {
   const router = useNavigate();
   const { user, loading, error } = UseUserProfile(true);
-  const {
-    country,
-    loading: countryLoading,
-    error: countryError,
-  } = UseCountry();
   const [userName, setUserName] = useState("");
   const [userEmail, setUserEmail] = useState("");
   const [userBio, setUserBio] = useState("");
