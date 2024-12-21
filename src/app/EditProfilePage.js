@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 import { UseUserProfile } from "../hooks/UseUserProfile";
 import { UseCountry } from "../hooks/UseCountry";
 import { useLoader } from "../utils/LoaderManager";
-import toast from "react-hot-toast";
+import toast, { Toaster } from "react-hot-toast";
 import { postData } from "../utils/ApiUtils";
 
 import "./styles/styles.css";
@@ -13,7 +13,9 @@ export default function EditProfilePage() {
   const router = useNavigate();
   const { user, loading, error } = UseUserProfile(true);
   const {
-    country
+    country,
+    loading: countryLoading,
+    error: countryError,
   } = UseCountry();
   const [userName, setUserName] = useState("");
   const [userEmail, setUserEmail] = useState("");
