@@ -1,0 +1,894 @@
+.second-login-screen .set-child-div {
+  display: flex;
+  height: 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.second-login-screen .set-child-div img {
+  width: 10vh;
+}
+
+.second-login-screen .set-child-div .left-sec {
+  margin-right: auto;
+  width: 3vh !important;
+}
+
+.second-login-screen .set-child-div .right-sec {
+  width: 3vh !important;
+  margin-left: auto;
+}
+
+.second-login-screen .set-user-div {
+  display: flex;
+  height: 20%;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #012572;
+  border-radius: 2vh;
+  padding: 2vh;
+  margin: 2vh 0px;
+}
+
+.second-login-screen .set-user-div .left-sec {
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.second-login-screen .set-user-div .right-sec {
+  margin-left: auto;
+}
+
+.second-login-screen .set-user-div .right-sec img {
+  width: 3vh !important;
+}
+
+.second-login-screen .set-user-div .left-sec .picture {
+  width: 7vh;
+  height: 7vh;
+  border-radius: 2vh;
+}
+
+.second-login-screen .set-user-div .left-sec .txt {
+  font-family: "Overpass", sans-serif;
+  margin: 0;
+  margin-left: 2vh;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 2vh;
+}
+
+.set-error-div {
+  width: 100%;
+  height: 100%;
+  padding-top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.second-login-screen .set-text-div .left-heading {
+  font-family: "Overpass", sans-serif;
+  margin: 0;
+  color: #fff;
+  text-transform: capitalize;
+  text-align: left;
+  font-size: 2.4vh;
+}
+
+.second-login-screen .set-text-div {
+  width: 100%;
+  height: 10%;
+  padding-top: 0;
+  justify-content: center;
+}
+
+.second-login-screen .set-text-div p {
+  font-weight: 600;
+  font-size: 2vh;
+  text-align: center;
+}
+
+
+.second-login-screen .set-game-attach-div {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #012572;
+  border-radius: 2vh;
+  padding: 0px 2vh;
+  margin-top: 2vh;
+  position: relative;
+}
+
+.second-login-screen .set-game-attach-div .action-img-div {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.second-login-screen .set-game-attach-div .action-img-div .selected-circle {
+  background-image: url('../../assets/images/circle.svg');
+  background-repeat: no-repeat;
+  width: 32vh;
+  height: 32vh;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+}
+
+.second-login-screen .set-game-attach-div .action-img-div .selected-image {
+  width: 10vh;
+  height: 10vh;
+  object-fit: contain;
+}
+
+.second-login-screen .set-game-attach-div .action-img-div span.heading {
+  margin-top: 1vh;
+  font-family: "Overpass", sans-serif;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 2.4vh;
+}
+
+.second-login-screen .set-game-attach-div .action-img-div span.sub-heading {
+  font-family: "Overpass", sans-serif;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 1.5vh;
+  opacity: 0.5;
+
+}
+
+.second-login-screen .set-game-attach-div .action-img-div .attach-img {
+  width: 32vh;
+  cursor: pointer;
+}
+
+.second-login-screen .set-game-attach-div .action-button-div {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+
+}
+
+
+.second-login-screen .set-profile-div {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 1.5vh;
+  gap: 10px;
+  margin: 2vh 0%;
+}
+
+.second-login-screen .set-profile-div img {
+  width: 5vh;
+  border-radius: 50%;
+}
+
+.second-login-screen .set-profile-div p {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.6vh;
+  text-align: start;
+  margin: 0;
+}
+
+.second-login-screen .set-profile-div p span {
+  opacity: 50%;
+  font-weight: 100;
+}
+
+.second-login-screen .set-content-div {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 1.5vh;
+  gap: 10px;
+  margin: 0;
+}
+
+.second-login-screen .set-content-div p {
+  padding: 0;
+  color: #fff;
+  text-align: start;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  font-size: 1.5vh;
+}
+
+.second-login-screen .set-content-div .privacy-p-1 {
+  height: 100%;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  font-size: 1.5vh;
+}
+
+.second-login-screen .set-btn-2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+  padding: 1.1vh 0;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #ffffff;
+  outline: none;
+  font-family: "Overpass", sans-serif;
+  font-weight: 600;
+  border-radius: 10px;
+  font-size: 2vh;
+  margin-top: 1vh;
+  text-transform: initial;
+}
+
+
+.main-content-div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+.zero-opacity {
+  opacity: -1;
+}
+
+.btn-disable {
+  background-color: #d3d3d3;
+  border: 0px solid;
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.attach-game-heading {
+  margin-top: 2.5vh !important;
+  margin-bottom: 2.5vh !important;
+}
+
+
+
+.second-login-screen .set-games-div {
+  display: flex;
+  width: 100%;
+  height: 90%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vh;
+  position: relative;
+}
+
+.second-login-screen .set-games-div .game-list {
+  width: 100%;
+
+  position: relative;
+  height: 90%;
+  overflow-y: scroll;
+  scrollbar-width: none;
+
+}
+
+
+
+
+.second-login-screen .set-games-div .game-list .game-boxes {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0vh;
+  justify-content: space-between;
+}
+
+.second-login-screen .set-games-div .game-list .game-box {
+  flex: 0 1 calc(33.33% - 1vh);
+  box-sizing: border-box;
+  border-radius: 1vh;
+  background-color: white;
+  margin-bottom: 1vh;
+  width: 12vh;
+  height: 14vh;
+  object-fit: contain;
+  cursor: pointer;
+  opacity: 0.65;
+}
+
+.second-login-screen .set-games-div .game-list .game-box.game-selected {
+  opacity: 1;
+  border: 0.4vh solid rgb(180 205 38)
+}
+
+
+.second-login-screen .set-games-div .action-button-div {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+
+
+.main-invite-div {
+  padding: 0 !important;
+  position: absolute;
+  top: 0;
+  background-color: #00000063 !important;
+  justify-content: flex-end !important;
+}
+
+.main-invite-div .invite-box {
+  width: 100%;
+  height: 40%;
+  background-color: #f3ebdd;
+  border-top-right-radius: 5vh;
+  border-top-left-radius: 5vh;
+  padding: 9% 9%;
+}
+
+.main-invite-div .invite-box .invite-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main-invite-div .invite-box .invite-heading h4 {
+  margin: 0;
+  color: #012572;
+  font-size: 2.4vh;
+}
+
+.main-invite-div .invite-box .invite-heading img {
+  cursor: pointer;
+  width: 2.5vh;
+}
+
+
+
+.main-invite-div .invite-box .invite-social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 70%;
+}
+
+
+.main-invite-div .invite-box .invite-social img {
+  width: 8vh;
+  cursor: pointer;
+}
+
+.main-invite-div .invite-box .btn-copy {
+  background-color: #e5d8bf;
+  border: 0px solid
+}
+
+.txt-center {
+  text-align: center !important;
+}
+
+
+
+.second-login-screen .set-game-session-div {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  background-color: #012572;
+  border-radius: 2vh;
+  padding: 0px 2vh;
+  margin-top: 2vh;
+  position: relative;
+}
+
+.second-login-screen .set-game-session-div .game-section-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 70%;
+
+}
+
+
+
+.second-login-screen .set-game-session-div .game-section-container .heading {
+  font-family: "Overpass", sans-serif;
+  margin: 0;
+  color: #fff;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 2.4vh;
+  height: 15%;
+  width: 100%;
+  align-content: center;
+}
+
+.second-login-screen .set-game-session-div .game-section-container .name-heading {
+  height: 10%;
+  margin: 0;
+  font-family: "Overpass", sans-serif;
+  color: #fff;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 2.4vh;
+  width: 100%;
+  align-content: center;
+}
+
+.second-login-screen .set-game-session-div .game-section-container .sub-heading {
+  height: 5%;
+  margin: 0;
+  font-family: "Overpass", sans-serif;
+  color: #fff;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 1.5vh;
+  opacity: 0.5;
+  width: 100%;
+  align-content: center;
+}
+
+.second-login-screen .set-game-session-div .game-section-container .game-image-box {
+  width: 100%;
+  height: 70%;
+  padding: 2vh 7vh;
+}
+
+.second-login-screen .set-game-session-div .game-section-container .game-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.second-login-screen .set-game-session-div .game-user-container {
+  padding: 5vh 2vh;
+  display: flex;
+  flex-direction: row;
+  height: 20%;
+  width: 100%;
+  justify-content: space-between;
+
+}
+
+
+.set-game-session-div .game-user-container .game-user-image {
+  width: 7vh;
+  height: 7vh;
+  border-radius: 2vh;
+  object-fit: cover;
+}
+
+.second-login-screen .set-game-session-div .action-button-div {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+
+.second-login-screen .set-guest-div {
+  display: flex;
+  height: 10%;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 2vh;
+  margin-top: 2vh;
+
+}
+
+.second-login-screen .set-guest-div .guest-game {
+  padding: 1vh 2vh;
+  background-color: #E5D8BF;
+  border-radius: 5vh;
+  display: flex;
+  flex-direction: row;
+
+  
+}
+.second-login-screen .set-guest-div .guest-game .txt {
+  margin: 0;
+  color: #012572;
+  font-size: 2vh;
+}
+
+.second-login-screen .set-guest-div .guest-game .game-logo {
+  margin-right: 1vh;
+  width: 2vh;
+}
+
+
+
+.second-login-screen .set-guest-game-div {
+  display: flex;
+  width: 100%;
+  height: 90%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 2vh;
+  margin-top: 2vh;
+  position: relative;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.second-login-screen .set-guest-game-div .heading {
+  margin: 0;
+  color: #012572;
+  font-weight: 700;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3vh;
+}
+
+.second-login-screen .set-guest-game-div .avatar {
+  margin-top: 2vh;
+  width: 100%;
+  height: 30%;
+}
+
+.second-login-screen .set-guest-game-div .colors {
+  margin-top: 2vh;
+  width: 100%;
+  height: 25%;
+}
+
+.second-login-screen .set-guest-game-div .names {
+  margin-top: 2vh;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+
+
+.second-login-screen .set-guest-game-div .names .nickname {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #E5D8BF;
+  padding: 1.5vh 1.5vh;
+  font-size: 2.2vh;
+  color: #012572;
+  text-align: center;
+}
+
+.second-login-screen .set-guest-game-div .names .nickname:focus-visible{
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #FC8831;
+}
+
+.second-login-screen .set-guest-game-div .names .nickname:focus{
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #FC8831;
+}
+
+.second-login-screen .set-guest-game-div .names .nickname:active{
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #FC8831;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.second-login-screen .set-guest-game-div .ready {
+  margin-top: 2vh;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slider-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.set-btn-1.disabled{
+  background-color: #E5D8BF;
+  box-shadow: none;
+  border:none;
+  opacity: 0.5;
+}
+
+
+.setting-div{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: flex-start;
+  width: 100%;
+}
+.setting-div .page-name{
+  font-family: "Overpass", sans-serif;
+  margin: 3vh 0vh;
+  text-transform: capitalize;
+  font-size: 3vh;
+  font-weight: 700;
+}
+
+.setting-div .setting-scroll-div{
+  overflow: scroll;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+} 
+
+.setting-div .setting-scroll-div .section-label{
+  font-family: "Overpass", sans-serif;
+  margin: 1vh 0vh 1vh 0vh;
+  font-size: 2vh;
+  text-align: left;
+  color: #8E8E93;
+  font-weight: 600;
+}
+
+.setting-div .setting-scroll-div .section-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1vh 0px;
+  background-color: #373737;
+  padding: 1.5vh 2vh;
+  border-radius: 0.7vh;
+  cursor: pointer;
+}
+.setting-div .setting-scroll-div .section-item .section-item-label{
+ margin: 0px;
+}
+
+.setting-div .setting-scroll-div .section-input{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 1vh 0px;
+  background-color: #373737;
+  padding: 1.5vh 2vh;
+  border-radius: 0.7vh;
+  cursor: pointer;
+}
+
+.setting-div .setting-scroll-div .section-input .section-input-label{
+ margin:  1vh 0px;
+ font-family: "Overpass", sans-serif;
+  font-size: 1.5vh;
+  font-weight: 600;
+}
+.setting-div .setting-scroll-div .section-input .section-input-item{
+ margin:  0px;
+ font-family: "Overpass", sans-serif;
+ width: 100%;
+  font-weight: 600;
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
+  outline: none;
+}
+
+.setting-div .setting-scroll-div .section-input-button{
+  margin: 3vh 0px 5vh 0px;
+}
+
+.setting-div .setting-scroll-div .section-input-button .input-button{
+  width: 100%;
+}
+
+
+
+
+.setting-div .profile-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40%;
+  margin-top: 3vh;
+}
+
+.setting-div .profile-img{
+  width: 15vh;
+    border-radius: 30%;
+}
+
+.setting-div .profile-name{
+  margin:  2.5vh 0px 1.5vh 0px;
+  font-family: "Overpass", sans-serif;
+   font-size: 3vh;
+   text-transform: capitalize;
+   font-weight: 600;
+}
+.setting-div .profile-email{
+  margin:  0px;
+  font-family: "Overpass", sans-serif;
+   font-size: 2vh;
+   opacity: 0.5;
+}
+
+.setting-game-div{
+  margin-top: 0px !important;
+}
+.label-span-1{
+  color: #34C759;
+  font-family: "Overpass", sans-serif;
+   font-size: 1.5vh;
+   font-weight: bold;
+   margin-left: 0.5vh;
+}
+
+.label-span-2{
+  color: #8E8E93;
+  font-family: "Overpass", sans-serif;
+   font-size: 1.5vh;
+   font-weight: bold;
+   margin-left: 0.5vh;
+}
+
+.label-span-3{
+  color: #F3EBDD;
+  font-family: "Overpass", sans-serif;
+   font-size: 1.5vh;
+   font-weight: bold;
+   margin-left: 0.5vh;
+}
+
+.section-item-2{
+  display: flex;
+    flex-direction: column;
+    background-color: #373737;
+    cursor: pointer;
+    border-radius: 0.7vh;
+    width: 100%;
+}
+.section-item-2 hr{
+  margin-top: 0px;
+  width: 100%;
+}
+.inner-div-section{
+  padding: 0 2vh;
+  display: flex;
+    flex-direction: column;
+}
+
+.setting-item-details{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0.5vh 0px;
+}
