@@ -45,8 +45,12 @@ export default function GuestViewPage() {
     try {
       const response = await postData("session-members/add-guest", data);
       hideLoader();
+      console.log(response);
       switch (response.message) {
         case "in_game":
+          sessionStorage.setItem("player_type", response.player_type);
+          sessionStorage.setItem("user", JSON.stringify(response.user));
+
           router(`/game-session/${invitationCode}`);
           break;
         case "blocked":

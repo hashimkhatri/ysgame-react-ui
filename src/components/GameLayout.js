@@ -33,6 +33,7 @@ export default function GameLayout({
           <div className={"second-login-screen set-div-1"}>
             <Toaster />
             <div className={"set-div-2" + (bgColor ? " " + bgClass : "")} style={style}>
+            {showHeader && (
               <div className="set-child-div">
                 {showLeft && (
                   <>
@@ -76,6 +77,7 @@ export default function GameLayout({
                   </>
                 )}
               </div>
+            )}
               {children}
             </div>
           </div>

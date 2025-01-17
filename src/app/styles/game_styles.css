@@ -1,6 +1,24 @@
 .set-div-3-open-game-bg{
     /* transition: transform 0.3s ease;
   transform: rotate(90deg); */
+  /* width: 100% !important;
+  height: 100vh !important; */
+}
+
+@media only screen and (orientation: landscape) {
+  .set-div-3-open-game-bg{
+    width: 100% !important;
+  height: 100vh !important;
+  }
+}
+
+/* When the device is mobile and in portrait mode */
+@media only screen and (orientation: portrait) {
+
+
+}
+
+.iframeClass{
   width: 100% !important;
   height: 100vh !important;
 }

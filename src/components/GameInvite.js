@@ -8,11 +8,14 @@ import { baseUrl } from "../utils/ApiWrapper";
 import { postData } from "../utils/ApiUtils";
 import "../app/styles/styles.css";
 import Images from "../constants/Images";
+import { useNavigate, useParams  } from "react-router-dom";
+
 
 export default function GameInvite({ user, gameInvite, selectedGame }) {
   const [invitationLink, setInvitationLink] = useState('-');
   const [playLink, setPlayLink] = useState('-');
   const { showLoader, hideLoader } = useLoader();
+  const router = useNavigate();
 
   useEffect(() => {
     const createSession = async () => {
@@ -20,7 +23,9 @@ export default function GameInvite({ user, gameInvite, selectedGame }) {
       try {
         const response = await postData("game-sessions", { user_id: user?.id, game_id: selectedGame?.id }, { headers: { "Content-Type": "application/json" } });
         setInvitationLink(baseUrl+'/invitation/'+response.data.invitation_code);
-        setPlayLink('/game-session/'+response.data.invitation_code);
+        // setPlayLink('/game-session/'+response.data.invitation_code);
+        setPlayLink(response.data.invitation_code);
+
       } catch (error) {
         toast.error("Error: " + error.message);
       } finally {
@@ -59,7 +64,11 @@ export default function GameInvite({ user, gameInvite, selectedGame }) {
         <CopyToClipboard text={invitationLink} onCopy={() => toast.success("Invitation copied.")}>
           <button className="set-btn-1 btn-copy"><img src={Images.copy} />Copy link</button>
         </CopyToClipboard>
-        <button className="set-btn-1" onClick={() => window.open(playLink, "_blank")} style={{ marginTop: "10px" }}>Play</button>
+        <button className="set-btn-1" onClick={() => {
+          router('/game-session/'+playLink);
+          //window.open(playLink, "_blank")
+          
+          }} style={{ marginTop: "10px" }}>Play</button>
       </div>
     </motion.div>
   );

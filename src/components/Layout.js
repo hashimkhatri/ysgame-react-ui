@@ -32,6 +32,7 @@ export default function Layout({
           <div className={"second-login-screen set-div-1"}>
             <Toaster />
             <div className={"set-div-2" + (bgColor ? " " + bgClass : "")}>
+            {showHeader && (
               <div className="set-child-div">
                 {showLeft && (
                   <>
@@ -75,6 +76,7 @@ export default function Layout({
                   </>
                 )}
               </div>
+            )}
               {children}
             </div>
           </div>

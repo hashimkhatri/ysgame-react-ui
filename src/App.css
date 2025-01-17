@@ -38,10 +38,7 @@
   padding: 0px !important;
 
 }
-.set-div-3-open-game-bg iframe{
-  /* height: 85% !important;*/
-  width: 100% !important; 
-}
+
 .rotated-screen{
   background-color: white;
   /* transition: transform 0.3s ease;
